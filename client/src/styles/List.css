@@ -23,8 +23,12 @@
     width: 20%;
     margin: auto;
 }
-.containt{
+.content{
     width: 80%;
     text-align: center;
     margin: auto;
+}
+
+.active{
+    background-color: aliceblue;
 }

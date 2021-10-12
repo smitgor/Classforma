@@ -1,5 +1,6 @@
 @import "List";
 @import "Lables";
+@import "Annotation";
 
 
 .App {
@@ -14,13 +15,13 @@
   
 }
 
-.annotation{
+#annotation{
   width: 65%;
   border-style: solid;   
   
 }
 
-.lables{
+#lables{
   width: 15%;
   float: right;
   border-style: solid;   

@@ -1,0 +1,10 @@
+#annotation{
+    border-style: solid;
+}
+
+.annotationPreview{
+    border-style: solid;
+    padding: 20px;
+    line-height: 1.7;
+}
+
