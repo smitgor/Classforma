@@ -7,7 +7,7 @@ const List = () => {
          {
             TextFiles.text.map(function(data,i){
                return (
-                  <div class="previewBox">
+                  <div class="previewBox" id={i}>
                      <div class="numbering">
                         {i+1}
                      </div>
