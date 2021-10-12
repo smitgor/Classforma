@@ -1,2 +1,2 @@
 # Classforma
-Classforma Frontend Evaluation Task of internship
+Frontend Evaluation Task for internship
