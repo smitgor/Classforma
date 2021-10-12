@@ -1,0 +1,30 @@
+.list{
+    color: aqua;
+    border-style: dashed;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.previewBox{
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px 10px;
+    height: 70px;
+    border-style: solid;
+    overflow: hidden;
+}
+.previewBox:hover{
+    background-color: aliceblue;
+}
+
+.numbering{
+    width: 20%;
+    margin: auto;
+}
+.containt{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,39 @@
+@import "List";
+@import "Lables";
+
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+.documentList{
+  width: 20%;
+  border-style: solid;   
+  
+}
+
+.annotation{
+  width: 65%;
+  border-style: solid;   
+  
+}
+
+.lables{
+  width: 15%;
+  float: right;
+  border-style: solid;   
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
