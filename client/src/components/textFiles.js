@@ -1,16 +1,21 @@
 var TextFiles = {
     "text" :[
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1",
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1",
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1",
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1",
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1this is 1his is 1his is 1his is 1his is 1his is 1his is 1this is 1his is 1his is 1his is 1his is 1his is 1his is 1this is 1his is 1his is 1his is 1his is 1his is 1his is 1this is 1his is 1his is 1his is 1his is 1his is 1his is 1this is 1his is 1his is 1his is 1his is 1his is 1his is 1this is 1his is 1his is 1his is 1his is 1his is 1his is 1this is 1his is 1his is 1his is 1his is 1his is 1his is 1this is 1his is 1his is 1his is 1his is 1his is 1his is 1",
-        "this is 1",
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1",
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1",
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1",
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1",
-        "this is 1his is 1his is 1his is 1his is 1his is 1his is 1"
+        "this is text for testing this is text for testing this is text",
+        "this is text for testing this is text for testing this is text",
+        "this is text for testing this is text for testing this is text",
+        "this is text for testing this is text for testing this is text",
+        "this is text for testing this is text for testing this is text",
+        "this is text for testing this is text for testing this is text",
+        "this is text for testing this is text for testing this is text for test ",
+        "this is text for testing this is text for testing this is text for test ",
+        "this is text for testing this is text for testing this is text for test ",
+        "this is text for testing this is text for testing this is text for test ",
+        "this is text for testing this is text for testing this is text for test ",
+        "this is text for testing this is text for testing this is text for testing this is text ",
+        "this is text for testing this is text for testing this is text for testing this is text ",
+        "this is text for testing this is text for testing this is text for testing this is text ",
+        "this is text for testing this is text for testing this is text for testing this is text ",
+        "this is text for testing this is text for testing this is text for testing this is text "
     ]
 }
 
