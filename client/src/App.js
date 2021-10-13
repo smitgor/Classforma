@@ -3,7 +3,7 @@ import './styles/App.css';
 import React from 'react';
 import List from './components/List';
 import Lables from './components/Lables';
-
+import DisplayText from './components/DisplayText';
 function App() {
   
   return (
@@ -12,7 +12,7 @@ function App() {
         <List/>
       </div>  
       <div id="annotation">
-        <p>Please selece document form section on left side to preform annotation</p>
+        <DisplayText/>
       </div>
       <div id="lables">
         <Lables/>

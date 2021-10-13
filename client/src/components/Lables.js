@@ -7,7 +7,6 @@ const Lables = (color) =>{
             currentColor[0].className = currentColor[0].className.replace("active", "");
         }
         var x = document.getElementById(color);
-        console.log(x);
         x.className+=" "+"active";
         x.querySelector("INPUT").checked=true;    
     }
