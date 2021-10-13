@@ -11,20 +11,17 @@
 
 .documentList{
   width: 20%;
-  border-style: solid;   
   
 }
 
 #annotation{
-  width: 65%;
-  border-style: solid;   
+  width: 65%; 
   
 }
 
 #lables{
   width: 15%;
   float: right;
-  border-style: solid;   
 
 }
 

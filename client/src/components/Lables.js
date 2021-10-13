@@ -2,7 +2,8 @@ import React from "react";
 
 const Lables = (color) =>{
     const selectColor = (color) =>{
-        var currentColor = document.getElementsByClassName("active");
+        var list = document.getElementById("lables");
+        var currentColor = list.getElementsByClassName("active");
         if (currentColor.length > 0) { 
             currentColor[0].className = currentColor[0].className.replace("active", "");
         }
@@ -14,7 +15,7 @@ const Lables = (color) =>{
 
     return (
         <>
-            <div class="category" id="red" onClick={()=>selectColor("red")}>
+            <div class="category" id="red" onClick={()=>selectColor("red")} >
                 <input type="radio" name="category" value="red" align="middle"/>
                 <div class="colorPreview" style={{backgroundColor:'red'}}></div>
                 <div class="CategoryName">Category 1</div>
@@ -24,9 +25,9 @@ const Lables = (color) =>{
                 <div class="colorPreview" style={{backgroundColor:'blue'}}></div>
                 <div class="CategoryName">Category 2</div>
             </div>
-            <div class="category" id="yellow" onClick={()=>selectColor("yellow")}>
-                <input type="radio" name="category" value="yellow"/>
-                <div class="colorPreview" style={{backgroundColor:'yellow'}}></div>
+            <div class="category" id="greenyellow" onClick={()=>selectColor("greenyellow")}>
+                <input type="radio" name="category" value="greenyellow"/>
+                <div class="colorPreview" style={{backgroundColor:'greenyellow'}}></div>
                 <div class="CategoryName">Category 3</div>
             </div>
             <div class="category" id="green" onClick={()=>selectColor("green")}>

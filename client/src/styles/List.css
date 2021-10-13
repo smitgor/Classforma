@@ -1,6 +1,4 @@
 .list{
-    color: aqua;
-    border-style: dashed;
     width: 80%;
     text-align: center;
     margin: auto;
@@ -12,11 +10,10 @@
     border-radius: 5px;
     margin: 15px 10px;
     height: 70px;
-    border-style: solid;
     overflow: hidden;
 }
 .previewBox:hover{
-    background-color: aliceblue;
+    background-color:lightgray;
 }
 
 .numbering{
@@ -30,5 +27,5 @@
 }
 
 .active{
-    background-color: aliceblue;
+    background-color: lightgray;
 }

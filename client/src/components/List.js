@@ -1,9 +1,7 @@
 import React from 'react';
 import TextFiles from './textFiles';
-import {fun} from './annotation';
 
 const List = () => {
-   
    const showText = (i) => {
       var current = document.getElementsByClassName("active");
       if (current.length > 0) { 
@@ -13,8 +11,7 @@ const List = () => {
       var x = document.getElementById(i);
       x.className+=" "+"active";
       x.querySelector("INPUT").checked=true;
-      document.getElementById("mainTextarea").innerHTML="<div class='annotationPreview'>"+TextFiles.text[i]+"</div>";
-      
+      document.getElementById("mainTextarea").innerHTML="<div id='annotationPreview'>"+TextFiles.text[i]+"</div>";
    }
    
    return (
