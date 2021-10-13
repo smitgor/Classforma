@@ -4,7 +4,11 @@
   "description": "Classforma Frontend Evaluation Task of internship",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "v14.16.0"
   },
   "repository": {
     "type": "git",
